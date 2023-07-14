@@ -9,5 +9,7 @@ import { DataService} from "../../services/data-service/data.service";
 export class AppComponent {
   title = 'Pharmacie_de_la_Mairie';
 
-  constructor(private dataService: DataService) {}
+  constructor() {
+  }
+
 }
